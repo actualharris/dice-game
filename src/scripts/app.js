@@ -17,8 +17,8 @@ if (window.performance.navigation.type === 1) {
   }
    
   function setDiceImages (num1, num2) {
-    document.querySelectorAll("img")[0].setAttribute("src", "./images/dice" + num1 + ".png");
-    document.querySelectorAll("img")[1].setAttribute("src", "./images/dice" + num2 + ".png");
+    document.querySelectorAll("img")[0].setAttribute("src", "./src/assets/images/dice" + num1 + ".png");
+    document.querySelectorAll("img")[1].setAttribute("src", "./src/assets/images/dice" + num2 + ".png");
   }
    
   function declareWinner(num1, num2) {
