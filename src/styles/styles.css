@@ -39,3 +39,17 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+
+@media (max-device-width: 960px) OR (max-width:960px){
+
+  body{
+    height: 100vh;
+  }
+  h1{
+    margin-top: 200px;
+  }
+  .dice{
+    margin-top: 300px;
+  }
+}
